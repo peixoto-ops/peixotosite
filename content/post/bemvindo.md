@@ -1,7 +1,7 @@
 ---
 title: "Bem Vindo"
 date: 2019-06-03T01:09:17-03:00
-draft: true
+draft: false
 image: "down/bright.jpg"
 tags: ["news"]
 ---
