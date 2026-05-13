@@ -1,8 +1,11 @@
-baseurl         = "/"
+baseurl         = "https://peixoto-ops.github.io/peixotosite/"
 theme           = "casper-two"
-languageCode    = "en-US"
+languageCode    = "pt-BR"
 disqusShortname = ""
-paginate        = 6
+
+[pagination]
+  pagerSize = 6
+
 #SectionPagesMenu = "main"
 
 [params]
@@ -12,13 +15,12 @@ paginate        = 6
   cover       = "down/buildings.jpg"
   description = "Advocacia e Consultoria"
   metaDescription = "Luiz Peixoto Advocacia e Consultoria"
-  googleAnalytics = "UA-141660439-1"
   customCSS = []
   RSSLink = ""
 
   twitterName = "@adv_luizpeixoto"
   fbName = "luizpeixoto.adv"
-  githubName = "p31x070"
+  githubName = "peixoto-ops"
 
   logo = ""
   orgName = "Luiz Peixoto"
@@ -28,13 +30,18 @@ paginate        = 6
   author = "Luiz Peixoto"
   authorAvatar = "down/Avatar.jpeg"
   authorLocation = "Rio de Janeiro, BR"
-  authorWebsite = "https://github.com/p31x070"
+  authorWebsite = "https://github.com/peixoto-ops"
   authorDescription = "OABRJ 94719"
 
   pageNotFoundTitle = "404 - Page not found"
 
   #casper or caspertwo
   singleViewStyle = "casper"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [permalinks]
   post = "/:slug/"
