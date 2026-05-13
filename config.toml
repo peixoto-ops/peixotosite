@@ -1,4 +1,4 @@
-baseurl         = "https://peixoto-ops.github.io/peixotosite/"
+baseurl = "https://www.luizpeixoto.com/"
 theme           = "casper-two"
 languageCode    = "pt-BR"
 disqusShortname = ""
