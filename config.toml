@@ -52,9 +52,29 @@ disqusShortname = ""
   weight = 200
 
 [[menu.main]]
+  name = "Áreas de Atuação"
+  url = "/areas/"
+  weight = 180
+
+[[menu.main]]
   name = "Primeiros Passos"
   url = "/tags/Iniciar/"
-  weight = 100
+  weight = 170
+
+[[menu.main]]
+  name = "Ferramentas"
+  url = "/ferramentas/"
+  weight = 160
+
+[[menu.main]]
+  name = "Publicações"
+  url = "/garden/"
+  weight = 150
+
+[[menu.main]]
+  name = "Área do Cliente"
+  url = "/area-cliente/"
+  weight = 140
 
 [[menu.main]]
   name = "Importante"
