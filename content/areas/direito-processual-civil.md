@@ -3,6 +3,7 @@ title: "Direito Processual Civil"
 cdd: "341.46"
 tags: ["direito processual civil", "processo civil", "recursos", "execução"]
 weight: 2
+type: page
 draft: false
 ---
 

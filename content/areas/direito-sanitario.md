@@ -1,6 +1,7 @@
 ---
 title: "Direito Sanitário"
 date: 2026-05-17T01:08:00-03:00
+type: page
 draft: false
 image: ""
 tags: ["direito sanitário", "cannabis medicinal", "Anvisa", "autorização sanitária", "saúde"]

@@ -1,6 +1,7 @@
 ---
 title: "Direito de Família"
 date: 2026-05-17T01:06:00-03:00
+type: page
 draft: false
 image: ""
 tags: ["direito de família", "divórcio", "alimentos", "guarda", "família"]

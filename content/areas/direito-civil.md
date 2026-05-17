@@ -3,6 +3,7 @@ title: "Direito Civil"
 cdd: "342.1"
 tags: ["direito civil", "contratos", "obrigações", "responsabilidade civil"]
 weight: 1
+type: page
 draft: false
 ---
 
