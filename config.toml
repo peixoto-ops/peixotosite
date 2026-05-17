@@ -68,7 +68,7 @@ disqusShortname = ""
 
 [[menu.main]]
   name = "Publicações"
-  url = "/garden/"
+  url = "/publicacoes/"
   weight = 150
 
 [[menu.main]]

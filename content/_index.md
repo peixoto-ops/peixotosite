@@ -45,7 +45,7 @@ Com a digitalização da economia, toda organização que coleta, armazena ou co
 O escritório atende presencialmente e por meios remotos na cidade do Rio de Janeiro. Para agendar uma consulta ou obter informações, utilize os canais abaixo.
 
 **E-mail:** [adv@luizpeixoto.com](mailto:adv@luizpeixoto.com) \
-**WhatsApp:** (21) 99999-9999 \
+**WhatsApp:** (21) 96919-1621 \
 **Área do Cliente:** [app.luizpeixoto.com](https://app.luizpeixoto.com)
 
 ---
