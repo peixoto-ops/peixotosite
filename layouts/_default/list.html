@@ -1,0 +1,49 @@
+{{ partial "head" . }}
+
+<body class="home-template"><div class="site-wrapper">
+
+{{ partial "header" . }}
+
+{{ if .Content }}
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    <article class="post-full post">
+      <header class="post-full-header">
+        <h1 class="post-full-title">{{ .Title }}</h1>
+      </header>
+      <section class="post-full-content">
+        <div class="kg-card-markdown">
+          {{ .Content }}
+        </div>
+      </section>
+    </article>
+  </div>
+</main>
+{{ end }}
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    <div class="post-feed">
+      {{ range .Paginator.Pages }}
+      <article class="post-card post">
+        <a class="post-card-image-link" href="{{ .RelPermalink }}">
+          <div class="post-card-image" style="background-image:url({{ "defimg/2.jpg" | relURL }})"></div>
+        </a>
+        <div class="post-card-content">
+          <a class="post-card-content-link" href="{{ .RelPermalink }}">
+            <header class="post-card-header">
+              <h2 class="post-card-title">{{ .Title }}</h2>
+            </header>
+            <section class="post-card-excerpt">
+              <p>{{ .Summary | plainify | truncate 200 }}</p>
+            </section>
+          </a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</main>
+
+{{ partial "footer" . }}
+</div>{{ partial "js" . }}</body></html>
